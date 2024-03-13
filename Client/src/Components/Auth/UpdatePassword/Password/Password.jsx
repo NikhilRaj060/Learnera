@@ -54,7 +54,7 @@ function Password() {
 
     try {
       let res = await axios.post(
-        "http://3.110.210.79:3001/auth/update-password",
+        `${process.env.REACT_APP_API_URL}/auth/update-password`,
         payload
       );
 

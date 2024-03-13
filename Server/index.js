@@ -44,11 +44,11 @@ app.use('/api', contactRoutes);
 
 
 // Serve static files
-app.use(express.static(path.join(__dirname, "../client/build")));
+app.use(express.static(path.join(__dirname, "../Client/build")));
 
 app.get("/*",function (req,res) {
     res.sendFile(
-        path.join(__dirname, "../client/build"),
+        path.join(__dirname, "../Client/build"),
         function(err) {
             if (err) {
                 res.status(500).send(err)
