@@ -15,7 +15,7 @@ function Payment() {
 
                         <img src="Image/Logo1.svg" className="w-8 h-8" />
                         <h4 className="text-3xl font-bold" style={{ color: "#1539CF" }}>
-                            EdLernity
+                            EduHub
                         </h4>
                     </NavLink>
                 </div>

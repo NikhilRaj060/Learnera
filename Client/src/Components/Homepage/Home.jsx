@@ -14,7 +14,7 @@ function Home() {
       <BaseLayout>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>EdLernity | Home </title>
+          <title>EduHub | Home </title>
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
         <div>

@@ -10,7 +10,7 @@
 
 //       <HashLoader color="#2F35CB" />
 //       <div className="ml-4 text-xl font-semibold text-gray-700">
-//         Welcome to EdLernity
+//         Welcome to EduHub
 //       </div>
 //     </div>
 //   );
@@ -34,7 +34,7 @@ const Loader = () => {
       </div>
       <HashLoader color="#2F35CB" />
       <div className="mt-4 text-xl font-semibold text-gray-700">
-        Welcome to EdLernity
+        Welcome to EduHub
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ const ChatBot = ({ onClose }) => {
         <div className="header-left  flex items-center">
           <FaWhatsapp className="whatsapp-icon w-8 h-6" />
           <div className="ml-2">
-            <h1 className='font-bold text-2xl'>Edlernity</h1>
+            <h1 className='font-bold text-2xl'>EduHub</h1>
             <p className='text-nowrap'>Typically replies within 2 mins</p>
           </div>
         </div>
@@ -30,7 +30,7 @@ const ChatBot = ({ onClose }) => {
       </div>
       <div className="chat-messages mt-12 px-6    ">
         <div className="bot-message text-sm bg-white p-2 rounded-2xl w-48 text-black">
-          <h2 className='text-gray-800 text-lg'>Edlernity</h2>
+          <h2 className='text-gray-800 text-lg'>EduHub</h2>
           <h4>Hi there! </h4>
           <p >How can I help you?</p>
         </div>

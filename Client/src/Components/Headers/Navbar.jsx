@@ -38,7 +38,7 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
             <img src="/Image/Logo1.svg" alt="Logo" className="w-10" />
           </NavLink>
           <Typography variant="h3" color="black" className="" style={{color:"#1539cf"}}>
-              Edlernity{" "}
+              EduHub{" "}
             </Typography>
         </div>
 
@@ -147,7 +147,7 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
         <div className="mb-6 p-2 flex items-center justify-between z-[4] " style={{ backgroundColor: 'rgb(21, 57, 207)' }}>
           <NavLink to="/home">
             <Typography variant="h5" color="white" className="ml-4">
-              Edlernity{" "}
+              EduHub{" "}
             </Typography>
           </NavLink>
           <IconButton variant="text" color="white" onClick={toggleDrawer}>

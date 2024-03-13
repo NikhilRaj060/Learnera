@@ -11,14 +11,14 @@
 //     <div className="bg-white rounded-full p-2">
 //       <img src="/Image/Logo1.svg" className="w-10 text-[#3d71f5]" alt="Logo" />
 //     </div>
-//     <h1 className="text-3xl font-bold">EdLernity</h1>
+//     <h1 className="text-3xl font-bold">EduHub</h1>
 //   </div>
 //   <h2 className="text-5xl font-extrabold mb-6">
 //     Lifetime Learning Pass
 //   </h2>
 //   <div className="bg-[#5c59a7] p-6 rounded-lg max-w-md">
 //     <p className="text-lg">
-//       Team EdLernity is exhilarated to announce that, due to our remarkable growth over the last few months, we are initiating a new pass that will be a turning point for you and your career development.
+//       Team EduHub is exhilarated to announce that, due to our remarkable growth over the last few months, we are initiating a new pass that will be a turning point for you and your career development.
 //     </p>
 //   </div>
 //   <Button className="mt-6 bg-[#5c59a7] hover:bg-[#4b489d]">
@@ -157,10 +157,10 @@ function Member() {
                   alt="Logo"
                 />
               </div>
-              <h1 className="text-3xl font-bold">EdLernity</h1>
+              <h1 className="text-3xl font-bold">EduHub</h1>
             </div>
             <h2 className="text-5xl text-center mt-5 font-extrabold mb-6">
-              EdLernity's Lifetime subscription"
+              EduHub's Lifetime subscription"
             </h2>
             <div className="bg-[#131313] p-6 rounded-xl max-w-md">
               <p className="text-lg">
@@ -209,7 +209,7 @@ function Member() {
                   <li>Verified Certificates for lifetime</li>
                   <li>100+ Upcoming Courses In 2024</li>
                   <li>Unlimited Access To All Courses</li>
-                  <li>Get Free Access To EdLernity Academics</li>
+                  <li>Get Free Access To EduHub Academics</li>
                 </ul>
               </div>
               <Button className="bg-[#3b49df] text-white rounded-3xl mt-4">
@@ -251,7 +251,7 @@ function Member() {
                 <div>
                   <h3 className="text-xl font-semibold">Certified</h3>
                   <p className="text-lg">
-                    Each EdLernity course is with certification to boost your
+                    Each EduHub course is with certification to boost your
                     CV.
                   </p>
                 </div>
@@ -261,7 +261,7 @@ function Member() {
                alt="user3"
               />
                 <div>
-                  <h3 className="text-xl font-semibold">EdLernity Academics</h3>
+                  <h3 className="text-xl font-semibold">EduHub Academics</h3>
                   <p>
                     A especially curated platform for students, help them to
                     find jobs and prepratory material.
@@ -346,7 +346,7 @@ function Member() {
         <div className=" mt-6 space-y-2 items-center justify-center">
           <h4 className="text-center text-white text-2xl ">Email</h4>
           <p className="text-lg text-center underline" href="#">
-            info@edlernity.com
+            info@EduHub.com
           </p>
         </div>
       </div>

@@ -105,7 +105,7 @@ const UploadFolder = () => {
     try {
       setFormsData({...formsData, message : "Uploading Course details...,Please do not refresh the page"});
       const courseResponse = await axios.post(
-        "http://3.110.210.79:3001/api/save-course",
+        `${process.env.REACT_APP_API_URL}/api/save-course`,
         data,
       );
 
@@ -116,7 +116,7 @@ const UploadFolder = () => {
           setFormsData({...formsData, message : "Uploading videos...,Please do not refresh the page. It may take some time depending on the number of files."});
         },2000);
         const response = await axios.post(
-          "http://3.110.210.79:3001/api/upload-folder",
+          `${process.env.REACT_APP_API_URL}/api/upload-folder`,
           formData);
 
         setFormsData({...formsData, message : response.data.message});

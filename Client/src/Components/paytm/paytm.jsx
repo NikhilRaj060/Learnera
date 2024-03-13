@@ -46,7 +46,7 @@ const Paytm = () => {
   
     const getData = (data) => {
       setLoading(false);
-      return fetch(`http://3.110.210.79:3001/api/payment`, {
+      return fetch(`${process.env.REACT_APP_API_URL}/api/payment`, {
         method: "POST",
         headers: {
           Accept: "application/json",

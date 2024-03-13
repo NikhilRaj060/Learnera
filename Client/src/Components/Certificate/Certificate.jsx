@@ -12,7 +12,7 @@ function Certificate() {
     const ctx = canvas.getContext('2d');
   
     const img = new Image();
-    img.src = '/Image/Certificate_of_Completion_EdLernity.png';
+    img.src = '/Image/Certificate_of_Completion_EduHub.png';
     img.onload = () => {
 
       ctx.drawImage(img, 0, 0, canvas.width, canvas.height);

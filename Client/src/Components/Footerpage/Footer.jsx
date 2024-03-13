@@ -31,7 +31,7 @@ const LINKS = [
     title: "Contact",
     items: [
       { label: "+91 8073306479", url: "tel:+918073306479" },
-      { label: "info@edlernity.com", url: "mailto:info@edlernity.com" },
+      { label: "info@EduHub.com", url: "mailto:info@EduHub.com" },
     ],
   },
 ];
@@ -57,10 +57,10 @@ function Footer() {
             <div className="mb-6">
               <div className="flex items-center gap-4">
                 <img alt="logo" src="/Image/Logo1.svg" className="w-12" />
-                <Typography variant="h5">EdLernity</Typography>
+                <Typography variant="h5">EduHub</Typography>
               </div>
               <Typography variant="paragraph" className="mt-4 text-sm">
-                EdLernity offers you the opportunity to learn without limits -
+                EduHub offers you the opportunity to learn without limits -
                 all the Upskilling Courses, Placement Preparation, and Various
                 Certification Courses on a single platform. Our Platform
                 includes Video-based learning, Practice Exercises, and a
@@ -107,13 +107,13 @@ function Footer() {
               className="mb-4 text-center text-white font-normal md:mb-0"
             >
               &copy; {currentYear}{" "}
-              <Link to="/">EdLernity Tech (OPC) Private Limited</Link>. All
+              <Link to="/">EduHub Tech (OPC) Private Limited</Link>. All
               Rights Reserved.
             </Typography>
 
             <div className="flex gap-4 sm:justify-center">
               <a
-                href="https://www.linkedin.com/company/edlernity/"
+                href="https://www.linkedin.com/company/EduHub/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-100"
@@ -125,7 +125,7 @@ function Footer() {
                 />
               </a>
               <a
-                href="https://www.instagram.com/edlernity/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+                href="https://www.instagram.com/EduHub/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-100"
@@ -137,7 +137,7 @@ function Footer() {
                 />
               </a>
               <a
-                href="https://twitter.com/EdLernity"
+                href="https://twitter.com/EduHub"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-100"

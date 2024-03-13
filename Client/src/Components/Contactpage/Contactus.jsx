@@ -41,7 +41,7 @@ function Contact() {
       setErrors(validationErrors);
     } else {
       try {
-        await axios.post("http://3.110.210.79:3001/api/contact", formData);
+        await axios.post(`${process.env.REACT_APP_API_URL}/api/contact`, formData);
         console.log("Form submitted:", formData);
         setSubmitted(true);
       } catch (error) {
@@ -98,7 +98,7 @@ function Contact() {
   const data = {
     0: {
       title: "Our Website",
-      text: "www.edlernity.com",
+      text: "www.EduHub.com",
       bgColor: "rgba(82, 95, 225, 0.1)",
       icon: <BsGlobe color="blue" className="absolute top-2 w-10 h-6" />,
     },
@@ -112,7 +112,7 @@ function Contact() {
     },
     2: {
       title: "Email Us",
-      text: "info@edlernity.com",
+      text: "info@EduHub.com",
       bgColor: "rgba(255, 164, 27, 0.1)",
       icon: (
         <IoMailOpenOutline color="green" className="absolute top-2 w-10 h-6" />
@@ -133,7 +133,7 @@ function Contact() {
       <BaseLayout>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>EdLernity | Contact</title>
+          <title>EduHub | Contact</title>
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
 

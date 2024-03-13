@@ -11,7 +11,7 @@ function Offer() {
 
     return (
         <div className='my-8 px-4 sm:px-8 lg:px-16 xl:px-20 animate__animated animate__backInLeft'>
-            <h1 className='md:mt-12 font-bold text-4xl text-center mb-8' style={{ color: "#1649FF" }}>What EdLernity offers you?</h1>
+            <h1 className='md:mt-12 font-bold text-4xl text-center mb-8' style={{ color: "#1649FF" }}>What EduHub offers you?</h1>
 
             <div className="flex flex-wrap justify-center items-stretch gap-4">
                 {/* Card 1 */}

@@ -13,56 +13,56 @@ function Success() {
       id: 1,
       userProfileImage: "sejal-kesharwani.jpeg",
       story:
-     "Through interactive lectures, practical exercises, and hands-on projects, Edlernity ensures that students not only grasp the fundamentals but also master advanced concepts in programming and technology. Our dedicated instructors are committed to providing personalized support, guiding students every step of the way towards achieving their career goals in IT.",
+     "Through interactive lectures, practical exercises, and hands-on projects, EduHub ensures that students not only grasp the fundamentals but also master advanced concepts in programming and technology. Our dedicated instructors are committed to providing personalized support, guiding students every step of the way towards achieving their career goals in IT.",
       userName: "Surabhi Kesarwani",
     },
     {
       id: 2,
       userProfileImage: "nikhil-reji.jpeg",
       story:
-        "I recently came across membership of EdLernity, and I must say, it was a great experience. The platform's intuitive interface and engaging content made learning not only easy but also enjoyable. The courses structure was well-organized, guiding me through each topic seamlessly. I would recommend to take up the membership and explore the courses.",
+        "I recently came across membership of EduHub, and I must say, it was a great experience. The platform's intuitive interface and engaging content made learning not only easy but also enjoyable. The courses structure was well-organized, guiding me through each topic seamlessly. I would recommend to take up the membership and explore the courses.",
       userName: "Nikhil Reji",
     },
     {
       id: 3,
       userProfileImage: "sraadha-gupta.jpeg",
       story:
-        "Great course, so many important topics covered in depth. There were many assessments which made us confident with our skills. I would like to enroll in more courses offered by EdLernity.I highly recommend EdLernity to anyone looking to enhance their skills and advance their career in the IT industry. The thorough coverage and rigorous assessments truly solidify your knowledge and competence in various key areas.",
+        "Great course, so many important topics covered in depth. There were many assessments which made us confident with our skills. I would like to enroll in more courses offered by EduHub.I highly recommend EduHub to anyone looking to enhance their skills and advance their career in the IT industry. The thorough coverage and rigorous assessments truly solidify your knowledge and competence in various key areas.",
       userName: "Shraddha Gupta",
     },
     {
       id: 4,
       userProfileImage: "ali-akbar.jpeg",
       story:
-        "EdLernity offers different courses that's helpfull for People who are looking to improve their skills.They have Technical courses and many more.The courses are well structured with clear objectives and engaging contents.Making complex topics easier to understand.Edlernity provides a valuable resource for life long learners. The course has helped provide a starting point for understanding, which certainly will prove useful in my current work/projects.",
+        "EduHub offers different courses that's helpfull for People who are looking to improve their skills.They have Technical courses and many more.The courses are well structured with clear objectives and engaging contents.Making complex topics easier to understand.EduHub provides a valuable resource for life long learners. The course has helped provide a starting point for understanding, which certainly will prove useful in my current work/projects.",
       userName: "Ali Akbar P",
     },
     {
       id: 5,
       userProfileImage: "manjari-rastogi.jpeg",
       story:
-        "Edlernity offers a variety of courses for students who are really keen to start a career in the IT field. It has become easy to learn programming languages in an amazing way with the help of experts Edlernity's comprehensive courses cover everything from basic programming concepts to advanced software development techniques.",
+        "EduHub offers a variety of courses for students who are really keen to start a career in the IT field. It has become easy to learn programming languages in an amazing way with the help of experts EduHub's comprehensive courses cover everything from basic programming concepts to advanced software development techniques.",
       userName: "Manjari Rastogi",
     },
     {
       id: 6,
       userProfileImage: "abdul-wahab.jpeg",
       story:
-        "Edlernity is one of the most amazing platform to get a chance for learning and improving all technical skills required for all IT students it's worthy to have an opportunity to learn and acquire skills of languages that provided by their inspired and professional teachers ..happy learning with EdLernity.",
+        "EduHub is one of the most amazing platform to get a chance for learning and improving all technical skills required for all IT students it's worthy to have an opportunity to learn and acquire skills of languages that provided by their inspired and professional teachers ..happy learning with EduHub.",
       userName: "Abdul Wahab",
     },
     {
       id: 7,
       userProfileImage: "r-muskan-zehra.jpeg",
       story:
-        "I highly recommend this course provided by EdLernity to anyone looking to take their Python skills to the next level. Whether you're a beginner or an experienced programmer, you'll find valuable insights and practical knowledge that will enhance your proficiency in Python programming. Best of luck on your learning journey.",
+        "I highly recommend this course provided by EduHub to anyone looking to take their Python skills to the next level. Whether you're a beginner or an experienced programmer, you'll find valuable insights and practical knowledge that will enhance your proficiency in Python programming. Best of luck on your learning journey.",
       userName: "R Muskan Zehra",
     },
     {
       id: 8,
       userProfileImage: "md-burhanuddin.jpeg",
       story:
-        "Packed with valuable insights and applicable skills. Worth every penny! Impressed with EdLernity courses! Easy-to-follow format, great community support, and actionable takeaways.Courses are top-notch Comprehensive curriculum, interactive exercises, and expert guidance. A must-try!.",
+        "Packed with valuable insights and applicable skills. Worth every penny! Impressed with EduHub courses! Easy-to-follow format, great community support, and actionable takeaways.Courses are top-notch Comprehensive curriculum, interactive exercises, and expert guidance. A must-try!.",
       userName: "Md Burhanuddin",
     },
   ];

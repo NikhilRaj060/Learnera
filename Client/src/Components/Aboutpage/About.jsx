@@ -12,56 +12,56 @@ function About() {
       id: 1,
       image: "sejal-kesharwani.jpeg",
       comment:
-        "Edlernity offers a variety of courses for students who are really keen to start a career in the IT field. It has become easy to learn programming languages in an amazing way with the help of experts.",
+        "EduHub offers a variety of courses for students who are really keen to start a career in the IT field. It has become easy to learn programming languages in an amazing way with the help of experts.",
       name: "Surabhi Kesarwani",
     },
     {
       id: 2,
       image: "nikhil-reji.jpeg",
       comment:
-        "I recently came across membership of EdLernity, and I must say, it was a great experience. The platform's intuitive interface and engaging content made learning not only easy but also enjoyable. The courses structure was well-organized, guiding me through each topic seamlessly. I would recommend to take up the membership and explore the courses.",
+        "I recently came across membership of EduHub, and I must say, it was a great experience. The platform's intuitive interface and engaging content made learning not only easy but also enjoyable. The courses structure was well-organized, guiding me through each topic seamlessly. I would recommend to take up the membership and explore the courses.",
       name: "Nikhil Reji",
     },
     {
       id: 3,
       image: "sraadha-gupta.jpeg",
       comment:
-        "Great course, so many important topics covered in depth. There were many assessments which made us confident with our skills. I would like to enroll in more courses offered by EdLernity.",
+        "Great course, so many important topics covered in depth. There were many assessments which made us confident with our skills. I would like to enroll in more courses offered by EduHub.",
       name: "Shraddha Gupta",
     },
     {
       id: 4,
       image: "ali-akbar.jpeg",
       comment:
-        "EdLernity offers different courses that's helpfull for People who are looking to improve their skills.They have Technical courses and many more.The courses are well structured with clear objectives and engaging contents.Making complex topics easier to understand.Edlernity provides a valuable resource for life long learners. The course has helped provide a starting point for understanding, which certainly will prove useful in my current work/projects.",
+        "EduHub offers different courses that's helpfull for People who are looking to improve their skills.They have Technical courses and many more.The courses are well structured with clear objectives and engaging contents.Making complex topics easier to understand.EduHub provides a valuable resource for life long learners. The course has helped provide a starting point for understanding, which certainly will prove useful in my current work/projects.",
       name: "Ali Akbar P",
     },
     {
       id: 5,
       image: "manjari-rastogi.jpeg",
       comment:
-        "Edlernity offers a variety of courses for students who are really keen to start a career in the IT field. It has become easy to learn programming languages in an amazing way with the help of experts.",
+        "EduHub offers a variety of courses for students who are really keen to start a career in the IT field. It has become easy to learn programming languages in an amazing way with the help of experts.",
       name: "Manjari Rastogi",
     },
     {
       id: 6,
       image: "abdul-wahab.jpeg",
       comment:
-        "Edlernity is one of the most amazing platform to get a chance for learning and improving all technical skills required for all IT students it's worthy to have an opportunity to learn and acquire skills of languages that provided by their inspired and professional teachers ..happy learning with EdLernity.",
+        "EduHub is one of the most amazing platform to get a chance for learning and improving all technical skills required for all IT students it's worthy to have an opportunity to learn and acquire skills of languages that provided by their inspired and professional teachers ..happy learning with EduHub.",
       name: "Abdul Wahab",
     },
     {
       id: 7,
       image: "r-muskan-zehra.jpeg",
       comment:
-        "I highly recommend this course provided by EdLernity to anyone looking to take their Python skills to the next level. Whether you're a beginner or an experienced programmer, you'll find valuable insights and practical knowledge that will enhance your proficiency in Python programming. Best of luck on your learning journey.",
+        "I highly recommend this course provided by EduHub to anyone looking to take their Python skills to the next level. Whether you're a beginner or an experienced programmer, you'll find valuable insights and practical knowledge that will enhance your proficiency in Python programming. Best of luck on your learning journey.",
       name: "R Muskan Zehra",
     },
     {
       id: 8,
       image: "md-burhanuddin.jpeg",
       comment:
-        "Packed with valuable insights and applicable skills. Worth every penny! Impressed with EdLernity courses! Easy-to-follow format, great community support, and actionable takeaways.Courses are top-notch Comprehensive curriculum, interactive exercises, and expert guidance. A must-try!.",
+        "Packed with valuable insights and applicable skills. Worth every penny! Impressed with EduHub courses! Easy-to-follow format, great community support, and actionable takeaways.Courses are top-notch Comprehensive curriculum, interactive exercises, and expert guidance. A must-try!.",
       name: "Md Burhanuddin",
     },
   ];
@@ -99,7 +99,7 @@ function About() {
     <BaseLayout>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>EdLernity | About Us</title>
+        <title>EduHub | About Us</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
 
@@ -112,9 +112,9 @@ function About() {
             className="text-lg md:text-xl lg:text-2xl mt-5 animate__animated animate__backInLeft"
             style={{ color: "#605C5C" }}
           >
-            Welcome to EdLernity Tech, where innovation converges with purpose
+            Welcome to EduHub Tech, where innovation converges with purpose
             to redefine the landscape of technological solutions. Established
-            with a vision to lead in the ever-evolving tech industry, EdLernity
+            with a vision to lead in the ever-evolving tech industry, EduHub
             Tech (OPC) Private Limited is committed to delivering cutting-edge
             products and services that transcend conventional boundaries.
           </p>
@@ -128,7 +128,7 @@ function About() {
             className="text-lg md:text-xl lg:text-2xl mt-5 animate__animated animate__backInRight"
             style={{ color: "#605C5C" }}
           >
-            At EdLernity, we go beyond traditional education. In addition to our
+            At EduHub, we go beyond traditional education. In addition to our
             wide array of courses, we are proud to offer Tech internships that
             provide real-time practical knowledge. These internships are
             designed to bridge the gap between theory and application, giving
@@ -141,7 +141,7 @@ function About() {
             Our internships offer a unique opportunity to work with industry
             experts, gain valuable insights, and apply your skills in real-world
             scenarios. Whether you're aspiring to be a Web Developer
-            professional or a UI/UX Designer, EdLernity is here to support your
+            professional or a UI/UX Designer, EduHub is here to support your
             journey and help you acquire the practical expertise that sets you
             apart.
           </p>
@@ -151,8 +151,8 @@ function About() {
             style={{ color: "#605C5C" }}
           >
             Join us on this transformative educational journey, because at
-            EdLernity, we firmly believe that "Better skills develop the nation.
-            Discover your potential with EdLernity today!
+            EduHub, we firmly believe that "Better skills develop the nation.
+            Discover your potential with EduHub today!
           </p>
         </div>
         <hr className="border-gray-500 mt-10"></hr>
@@ -234,7 +234,7 @@ function About() {
               WHO WE ARE
             </h4>
             <h2 className="mt-5 text-3xl font-bold">
-              How Does EdLernity Work?
+              How Does EduHub Work?
             </h2>
           </div>
 
@@ -350,7 +350,7 @@ function About() {
             </h2>
             <p className="text-2xl">
             <span className="inline-flex"><RiDoubleQuotesL/></span>
-              At Edlernity, we envision a future where technology seamlessly
+              At EduHub, we envision a future where technology seamlessly
               integrates with human needs, fostering progress and enhancing
               lives. Our vision is to be a beacon of innovation, driving
               positive change through transformative digital solutions.

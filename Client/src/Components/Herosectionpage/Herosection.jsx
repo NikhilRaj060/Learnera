@@ -47,7 +47,7 @@ function Herosection() {
           style={{ fontSize: window.innerWidth <= 640 ? "lg" : "" }}
         >
           <span className="inline-flex"><RiDoubleQuotesL/> &nbsp;</span>
-          Welcome to our innovative platform-EdLernity, Where
+          Welcome to our innovative platform-EduHub, Where
           knowledge meets eternity. Explore a world of endless
           possibilities as you embark on a journey of learning and
           discovery, tailored to your pace and preferences
