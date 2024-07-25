@@ -9,17 +9,17 @@ function PrivacyPolicy() {
     <BaseLayout>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>EduHub | Privacy Policy</title>
+        <title>Learnera | Privacy Policy</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
 
       <div className="privacy-policy-container">
       <h1 className='text-center justify-center text-3xl items-center mt-10 underline' style={{color:"rgba(21,57,207,1)"}}>Privacy Policy</h1>
-        <h2 className='text-2xl mt-8  font-semibold'>Privacy Policy for EduHub Tech (OPC) Private Limited</h2>
+        <h2 className='text-2xl mt-8  font-semibold'>Privacy Policy for Learnera Tech (OPC) Private Limited</h2>
 
         <strong className='text-lg'>Introduction:</strong>
         <p>
-          Welcome to EduHub Tech (OPC) Private Limited's Privacy Policy. At EduHub Tech, we are committed to protecting the privacy of our users. This Privacy Policy outlines the types of information we collect, how we use it, and the choices you have concerning your data. By using our website or services, you agree to the terms outlined in this policy.
+          Welcome to Learnera Tech (OPC) Private Limited's Privacy Policy. At Learnera Tech, we are committed to protecting the privacy of our users. This Privacy Policy outlines the types of information we collect, how we use it, and the choices you have concerning your data. By using our website or services, you agree to the terms outlined in this policy.
         </p>
 
         <h2>Information We Collect:</h2>
@@ -81,7 +81,7 @@ function PrivacyPolicy() {
           <ol>3.Request the deletion of your account and personal information.</ol>
         </p>
         <p>
-          To exercise these rights, please contact us at <NavLink to="mailto:EduHub@gmail.com" style={{color:"rgba(21,57,207,1)"}}>EduHub@gmail.com</NavLink>.
+          To exercise these rights, please contact us at <NavLink to="mailto:Learnera@gmail.com" style={{color:"rgba(21,57,207,1)"}}>Learnera@gmail.com</NavLink>.
         </p>
 
         <strong>Changes to This Privacy Policy:</strong>
@@ -91,7 +91,7 @@ function PrivacyPolicy() {
 
         <strong>Contact Us:</strong>
         <p>
-          If you have any questions or concerns about our Privacy Policy, please contact us at <NavLink to="mailto:info@EduHub.com" style={{color:"rgba(21,57,207,1)"}}>info@EduHub.com</NavLink>.
+          If you have any questions or concerns about our Privacy Policy, please contact us at <NavLink to="mailto:info@learnera.com" style={{color:"rgba(21,57,207,1)"}}>info@learnera.com</NavLink>.
         </p>
       </div>
     </BaseLayout>

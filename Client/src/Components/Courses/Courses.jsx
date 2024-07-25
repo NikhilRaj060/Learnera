@@ -44,7 +44,7 @@ function Courses() {
         try {
           axios
           .get(
-            `${process.env.REACT_APP_API_URL}/api/courses/${folderName}/${encodeURIComponent(course.videoNames[0])}`
+            `http://localhost:3001/api/courses/${folderName}/${encodeURIComponent(course.videoNames[0])}`
           )
           .then((res) => {
             setVideoUrl(res?.data?.videoUrl);
@@ -75,7 +75,7 @@ function Courses() {
     try {
       axios
       .get(
-        `${process.env.REACT_APP_API_URL}/${folderName}/${encodeURIComponent(fileNameForVideo)}`
+        `http://localhost:3001/${folderName}/${encodeURIComponent(fileNameForVideo)}`
       )
       .then((res) => {
         setVideoUrl(res?.data?.videoUrl);
@@ -92,7 +92,7 @@ function Courses() {
   return (
     <>
       <div className="px-4 md:px-12 md:mt-10 xl:px-24 xl:mt-6">
-        <h1 className="text-center pb-4 font-bold text-2xl text-[#1539cf] leading-6 md:hidden xl:hidden mt-8 md:mt-0 xl:mt-0">{courseTitle}</h1>
+        <h1 className="text-center pb-4 font-bold text-2xl text-[#11B4CF] leading-6 md:hidden xl:hidden mt-8 md:mt-0 xl:mt-0">{courseTitle}</h1>
         <div className="flex w-full flex-col md:flex-row xl:flex-row">
           <div className="flex flex-col md:w-4/6 xl:w-4/6">
             <div className="mt-4">

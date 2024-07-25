@@ -11,10 +11,10 @@ function ForgotPasswod({onResponse}) {
     email : email
   }
   const textColor = {
-    color: "#1539cf",
+    color: "#11B4CF",
   };
   const buttonColor = {
-    background: "#1539cf",
+    background: "#11B4CF",
     color: "white",
     borderRadius: "15px",
   };

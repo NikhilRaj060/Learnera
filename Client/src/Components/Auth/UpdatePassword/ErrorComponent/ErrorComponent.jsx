@@ -17,7 +17,7 @@ function ErrorComponent({req, setErrorValue}) {
       <div className='font-bold md:text-2xl'>
        {req.message}
        <br/>
-        {isPath ? <div><Link to={req.path} className='text-[#1539cf]' onClick={handleClick} >Click here </Link>{req.text}</div> : ""}
+        {isPath ? <div><Link to={req.path} className='text-[#11B4CF]' onClick={handleClick} >Click here </Link>{req.text}</div> : ""}
       </div>
     </>
   )

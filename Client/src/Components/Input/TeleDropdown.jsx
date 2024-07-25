@@ -29,7 +29,7 @@ function TeleDropdown({ isFocused,isValue }) {
             ripple={false}
             variant="text"
             color="blue-gray"
-            className="flex items-center gap-2 rounded-r-none pl-3 focus:border-[#1539cf]"
+            className="flex items-center gap-2 rounded-r-none pl-3 focus:border-[#11B4CF]"
           >
             <img
               src={flags.svg}

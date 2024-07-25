@@ -220,7 +220,7 @@ const UploadFolder = () => {
               className="mt-1 p-2 border rounded-md w-full"
             />
           </div>
-          <div className="border-2 border-solid rounded border-[#1539cf] p-2 mb-4">
+          <div className="border-2 border-solid rounded border-[#11B4CF] p-2 mb-4">
             <div className="mb-4">Course Content :</div>
             <CourseContentDescription
               questions={questions}

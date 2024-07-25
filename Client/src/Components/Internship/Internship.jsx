@@ -43,7 +43,7 @@ function Internship() {
       img: "pic3.png",
     },
     {
-      text: "EduHub Academics",
+      text: "Learnera Academics",
       img: "pic4.png",
     },
   ];

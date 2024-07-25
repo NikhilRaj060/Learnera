@@ -22,7 +22,7 @@ function CoursesOffered() {
             Explore Our Courses
           </h1>
           <p className="text-gray-700 py-2 text-sm md:text-base ">
-            Welcome to EduHub! Explore a wide range of courses designed to
+            Welcome to Learnera! Explore a wide range of courses designed to
             help you enhance your skills and achieve your learning goals.
             Discover industry-leading courses taught by experts in their fields,
             covering topics such as programming, data science, web development,
@@ -38,7 +38,7 @@ function CoursesOffered() {
           <p className="text-gray-700 py-2 text-sm md:text-base ">
             Take the next step towards advancing your career and mastering new
             skills. Explore our courses now and embark on your learning
-            adventure with EduHub!
+            adventure with Learnera!
           </p>
         </div>
 

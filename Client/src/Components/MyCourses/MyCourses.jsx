@@ -54,7 +54,7 @@ function MyCourses() {
     const fetchAllCourses = async () => {
       try {
         const response = await axios.get(
-          `${process.env.REACT_APP_API_URL}/api/get-course-by-id`
+          `http://localhost:3001/api/get-course-by-id`
         );
 
         console.log(response);
@@ -74,10 +74,10 @@ function MyCourses() {
           userAllCoursesData: updatedAllCoursesData,
         });
 
-        console.log(`${process.env.REACT_APP_API_URL}/api/get-all-course-count`)
+        console.log(`http://localhost:3001/api/get-all-course-count`)
 
         const count = await axios.get(
-          `${process.env.REACT_APP_API_URL}/api/get-all-course-count`
+          `http://localhost:3001/api/get-all-course-count`
         );
         setTotalCount(count.data.data);
       } catch (error) {

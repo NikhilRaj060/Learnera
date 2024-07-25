@@ -62,7 +62,7 @@ function Courses1() {
     const fetchAllCourses = async () => {
       try {
         const response = await axios.get(
-          `${process.env.REACT_APP_API_URL}/api/get-all-course-details`, {
+          `http://localhost:3001/api/get-all-course-details`, {
             params: {
               isFromUI: true // or false depending on your requirement
             }
@@ -122,7 +122,7 @@ function Courses1() {
     <BaseLayout>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>EduHub | Courses </title>
+        <title>Learnera | Courses </title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <h1

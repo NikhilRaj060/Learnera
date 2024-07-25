@@ -35,10 +35,10 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
         </div>
         <div className="flex items-center max-sm:ml-4 justify-center">
           <NavLink to={"/"}>
-            <img src="/Image/Logo1.svg" alt="Logo" className="w-10" />
+            <img src="/Image/logo.svg" alt="Logo" className="w-20" />
           </NavLink>
-          <Typography variant="h3" color="black" className="" style={{color:"#1539cf"}}>
-              EduHub{" "}
+          <Typography variant="h3" color="black" className="" style={{color:"#11B4CF"}}>
+              Learnera{" "}
             </Typography>
         </div>
 
@@ -147,7 +147,7 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
         <div className="mb-6 p-2 flex items-center justify-between z-[4] " style={{ backgroundColor: 'rgb(21, 57, 207)' }}>
           <NavLink to="/home">
             <Typography variant="h5" color="white" className="ml-4">
-              EduHub{" "}
+              Learnera{" "}
             </Typography>
           </NavLink>
           <IconButton variant="text" color="white" onClick={toggleDrawer}>

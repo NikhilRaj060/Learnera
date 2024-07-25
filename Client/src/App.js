@@ -23,7 +23,6 @@ import SucessPage from './Components/Auth/SuccessPage/SuccessPage.jsx';
 import Paytm from './Components/paytm/paytm.jsx'
 import Member from './Components/Memberpage/Member.jsx'
 import MyCourses from './Components/MyCourses/MyCourses.jsx'
-import Loader from './Components/Loaderpage/Loader.jsx'
 import ScrollToBottomTop from './Utils/ScrollToBottomTop.jsx';
 
 
@@ -43,9 +42,6 @@ function App() {
   
       <>
       <div>
-        {loading ? (
-          <Loader />
-        ) : (
         <BrowserRouter>
         <ScrollToTop />
           <Routes>
@@ -75,7 +71,6 @@ function App() {
           </Routes>
           <ToastContainer position="bottom-center" autoClose={5000} />
         </BrowserRouter>
-        )}
         <ScrollToBottomTop/>
         </div>
       </>

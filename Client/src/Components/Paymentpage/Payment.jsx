@@ -13,9 +13,9 @@ function Payment() {
                 <div className="flex justify-center gap-3 p-3 bg-[#D4D4D4] items-center">
                     <NavLink to="/" style={{ display: "contents" }}>
 
-                        <img src="Image/Logo1.svg" className="w-8 h-8" />
-                        <h4 className="text-3xl font-bold" style={{ color: "#1539CF" }}>
-                            EduHub
+                        <img src="Image/logo.svg" className="w-8 h-8" />
+                        <h4 className="text-3xl font-bold" style={{ color: "#11B4CF" }}>
+                            Learnera
                         </h4>
                     </NavLink>
                 </div>

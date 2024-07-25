@@ -13,41 +13,23 @@ function Herosection() {
 
   return (
     <div className="flex flex-col bg-[#F1F0F0] bg-cover bg-center text-white p-8 sm:p-14 text-center min-h-[600px] justify-between relative">
-      {/* <div className="animate__animated animate__backInLeft flex flex-col justify-between w-full max-w-full m-0 z-[10]">
-        <h1
-          className="text-white text-4xl sm:text-6xl text-left font-extrabold max-sm:text-xl pt-5"
-          style={{ color: "#1539CF" }}
-        >
-          Build your skill to advance your career path
-        </h1>
-        <hr className="mt-4 sm:mt-8 h-1 bg-[#1539CF] w-[90%]"></hr>
-        <p className="mt-4 sm:mt-8 text-lg text-[#4F4E4E] text-left w-[90%]">
-          Learning is a lifelong journey that in the future we never find the
-          terming stop searching, enjoy the process.
-        </p>
-        <div className="item-center flex justify-center sm:mt-8 w-[90%]">
-          <div className="bg-[#2F35CB] rounded-3xl py-2">
-            <button className="text-white text-base px-6 sm:px-8" onClick={handleClick}>Get Started</button>
-          </div>
-        </div>
-      </div> */}
       <div className="animate__animated animate__backInLeft flex flex-col justify-between max-sm:w-full lg:w-[40%] max-w-full m-0 z-[10]">
         <h1
           className="text-white text-4xl w sm:text-6xl text-left font-extrabold max-sm:text-xl pt-5"
           style={{
-            color: "#1539CF",
+            color: "#11B4CF",
             fontSize: window.innerWidth <= 640 ? "6xl" : "",
           }}
         >
           Build your skill to advance your career path
         </h1>
-        <hr className="mt-4 sm:mt-8 h-1 bg-[#1539CF] w-[90%]"></hr>
+        <hr className="mt-4 sm:mt-8 h-1 bg-[#11B4CF] w-[90%]"></hr>
         <p
           className="mt-4 sm:mt-8 text-lg text-[#4F4E4E] text-left w-[90%]"
           style={{ fontSize: window.innerWidth <= 640 ? "lg" : "" }}
         >
           <span className="inline-flex"><RiDoubleQuotesL/> &nbsp;</span>
-          Welcome to our innovative platform-EduHub, Where
+          Welcome to our innovative platform-Learnera, Where
           knowledge meets eternity. Explore a world of endless
           possibilities as you embark on a journey of learning and
           discovery, tailored to your pace and preferences

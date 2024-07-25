@@ -30,8 +30,8 @@ const LINKS = [
   {
     title: "Contact",
     items: [
-      { label: "+91 8073306479", url: "tel:+918073306479" },
-      { label: "info@EduHub.com", url: "mailto:info@EduHub.com" },
+      { label: "+91 6203651872", url: "tel:+916203651872" },
+      { label: "info@learnera.com", url: "mailto:info@learnera.com" },
     ],
   },
 ];
@@ -56,11 +56,11 @@ function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-sm:px-8">
             <div className="mb-6">
               <div className="flex items-center gap-4">
-                <img alt="logo" src="/Image/Logo1.svg" className="w-12" />
-                <Typography variant="h5">EduHub</Typography>
+                <img alt="logo" src="/Image/logo.svg" className="w-12" />
+                <Typography variant="h2">Learnera</Typography>
               </div>
               <Typography variant="paragraph" className="mt-4 text-sm">
-                EduHub offers you the opportunity to learn without limits -
+                Learnera offers you the opportunity to learn without limits -
                 all the Upskilling Courses, Placement Preparation, and Various
                 Certification Courses on a single platform. Our Platform
                 includes Video-based learning, Practice Exercises, and a
@@ -107,13 +107,13 @@ function Footer() {
               className="mb-4 text-center text-white font-normal md:mb-0"
             >
               &copy; {currentYear}{" "}
-              <Link to="/">EduHub Tech (OPC) Private Limited</Link>. All
+              <Link to="/">Learnera Tech (OPC) Private Limited</Link>. All
               Rights Reserved.
             </Typography>
 
             <div className="flex gap-4 sm:justify-center">
               <a
-                href="https://www.linkedin.com/company/EduHub/"
+                href="https://www.linkedin.com/company/Learnera/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-100"
@@ -125,7 +125,7 @@ function Footer() {
                 />
               </a>
               <a
-                href="https://www.instagram.com/EduHub/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+                href="https://www.instagram.com/Learnera/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-100"
@@ -137,7 +137,7 @@ function Footer() {
                 />
               </a>
               <a
-                href="https://twitter.com/EduHub"
+                href="https://twitter.com/Learnera"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-100"

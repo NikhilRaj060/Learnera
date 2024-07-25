@@ -12,7 +12,7 @@ function Certificate() {
     const ctx = canvas.getContext('2d');
   
     const img = new Image();
-    img.src = '/Image/Certificate_of_Completion_EduHub.png';
+    img.src = '/Image/Certificate_of_Completion_learnera.png';
     img.onload = () => {
 
       ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
@@ -43,7 +43,7 @@ function Certificate() {
 
   return (
     <div>
-      <h1 className="text-center pb-4 mt-6 font-bold text-4xl text-[#1539cf] leading-6">
+      <h1 className="text-center pb-4 mt-6 font-bold text-4xl text-[#11B4CF] leading-6">
         To earn a Certificate
       </h1>
 

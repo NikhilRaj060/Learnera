@@ -14,10 +14,10 @@ import ErrorComponent from "../UpdatePassword/ErrorComponent/ErrorComponent";
 
 function Signup() {
   const textColor = {
-    color: "#1539cf",
+    color: "#11B4CF",
   };
   const buttonColor = {
-    background: "#1539cf",
+    background: "#11B4CF",
     color: "white",
     borderRadius: "15px",
   };

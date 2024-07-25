@@ -98,13 +98,13 @@ function Contact() {
   const data = {
     0: {
       title: "Our Website",
-      text: "www.EduHub.com",
+      text: "www.learnera.com",
       bgColor: "rgba(82, 95, 225, 0.1)",
       icon: <BsGlobe color="blue" className="absolute top-2 w-10 h-6" />,
     },
     1: {
       title: "Call Us On",
-      text: "+91 8073306479",
+      text: "+91 6203651872",
       bgColor: "rgba(251, 124, 86, 0.1)",
       icon: (
         <RiHeadphoneLine color="orange" className="absolute top-2 w-10 h-6" />
@@ -112,7 +112,7 @@ function Contact() {
     },
     2: {
       title: "Email Us",
-      text: "info@EduHub.com",
+      text: "support@learnera.com",
       bgColor: "rgba(255, 164, 27, 0.1)",
       icon: (
         <IoMailOpenOutline color="green" className="absolute top-2 w-10 h-6" />
@@ -120,7 +120,7 @@ function Contact() {
     },
     3: {
       title: "Our Location",
-      text: "20, Sai Archids, Chikkabettahalli Vidyaranyapura Bangalore,India, 560097.",
+      text: "Iris Tech Park, Sector 48 Gurugram",
       bgColor: "rgba(82, 95, 225, 0.1)",
       icon: (
         <IoLocationOutline color="purple" className="absolute top-2 w-10 h-6" />
@@ -133,14 +133,14 @@ function Contact() {
       <BaseLayout>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>EduHub | Contact</title>
+          <title>Learnera | Contact</title>
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
 
         <div className="xl:flex md:flex flex-row flex-wrap justify-between items-center mt-6 xl:mt-0 md:mt-0 px-0.5 sm:px-8 md:px-2 xl:px-16 mb-8">
           {/* Title */}
           <div className="w-full text-center mt-1 md:mt-12 xl:mt-12 animate__animated animate__fadeInDownBig">
-            <h1 className="text-2xl font-bold text-[#1539cf] font-sans mb-4">
+            <h1 className="text-2xl font-bold text-[#11B4CF] font-sans mb-4">
               NEED HELP?
             </h1>
             <h1 className="text-center font-bold text-xl -mb-12 text-[#231f40] ">
@@ -250,7 +250,7 @@ function Contact() {
 
                 <button
                   type="submit"
-                  className="bg-[#1539cf] text-white w-full max-sm:w-1/2  px-4 py-2 rounded hover:bg-[#1539cf] hover:text-white"
+                  className="bg-[#11B4CF] text-white w-full max-sm:w-1/2  px-4 py-2 rounded hover:bg-[#11B4CF] hover:text-white"
                 >
                   SUBMIT
                 </button>
@@ -261,7 +261,7 @@ function Contact() {
                   Thank you for your query, we will repspond you back soon. 😊
                 </p>
                 <button
-                  className="bg-[#1539cf] text-white w-full max-sm:w-1/2  px-4 py-2 rounded hover:bg-[#1539cf] hover:text-white mt-4"
+                  className="bg-[#11B4CF] text-white w-full max-sm:w-1/2  px-4 py-2 rounded hover:bg-[#11B4CF] hover:text-white mt-4"
                   onClick={handleReset}
                 >
                   Submit Another Response
@@ -281,7 +281,7 @@ function Contact() {
           ) : (
             <iframe
               title="Google Maps"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15544.484040192685!2d77.53183771738283!3d13.091516500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae23759f6e8a79%3A0xbeb8ddec4f82f2f0!2sSai%20Orchard%20Layout!5e0!3m2!1sen!2sin!4v1707893715831!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d236.04966009195292!2d77.03803209343465!3d28.41828019981492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1721669989622!5m2!1sen!2sin "
               width="100%"
               height="300"
               frameBorder="0"

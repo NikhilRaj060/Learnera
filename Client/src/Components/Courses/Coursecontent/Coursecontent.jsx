@@ -9,7 +9,7 @@ function Coursecontent({ courseTitle, videos, setUrl, isLoading }) {
 
   return (
     <div>
-      <h1 className="text-center pb-4 font-bold text-2xl text-[#1539cf] leading-6 hidden md:block xl:block ">
+      <h1 className="text-center pb-4 font-bold text-2xl text-[#B1AFFF] leading-6 hidden md:block xl:block ">
         {courseTitle}
       </h1>
       <div className="bg-[#F2F2F2] rounded-xl px-6 pt-1.5 pb-6 max-h-[585px] overflow-y-auto shadow-2xl">
