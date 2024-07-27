@@ -37,9 +37,9 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
           <NavLink to={"/"}>
             <img src="/Image/logo.svg" alt="Logo" className="w-20" />
           </NavLink>
-          <Typography variant="h3" color="black" className="" style={{color:"#11B4CF"}}>
-              Learnera{" "}
-            </Typography>
+          <Typography variant="h3" color="black" className="" style={{ color: "#11B4CF" }}>
+            Learnera{" "}
+          </Typography>
         </div>
 
         <div className="hidden lg:flex ml-12 space-x-6">
@@ -94,22 +94,6 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
           </NavLink>
 
           <NavLink
-            to="/contact"
-            className={({ isActive }) =>
-              cn(
-                isActive
-                  ? "text-[#181FC5] active-link"
-                  : isDarkMode
-                    ? "text-white"
-                    : "text-black",
-                "hover:text-[#181FC5] font-md text-lg font-bold"
-              )
-            }
-          >
-            Contact
-          </NavLink>
-
-          <NavLink
             to="/blog"
             className={({ isActive }) =>
               cn(
@@ -123,6 +107,22 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
             }
           >
             Blog
+          </NavLink>
+
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              cn(
+                isActive
+                  ? "text-[#181FC5] active-link"
+                  : isDarkMode
+                    ? "text-white"
+                    : "text-black",
+                "hover:text-[#181FC5] font-md text-lg font-bold"
+              )
+            }
+          >
+            Contact
           </NavLink>
         </div>
 
