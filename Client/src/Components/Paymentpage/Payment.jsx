@@ -13,7 +13,7 @@ function Payment() {
                 <div className="flex justify-center gap-3 p-3 bg-[#D4D4D4] items-center">
                     <NavLink to="/" style={{ display: "contents" }}>
 
-                        <img src="Image/logo.svg" className="w-8 h-8" />
+                        <img src="Image/logo.png" className="w-8 h-8" />
                         <h4 className="text-3xl font-bold" style={{ color: "#11B4CF" }}>
                             Learnera
                         </h4>
@@ -24,7 +24,7 @@ function Payment() {
                     <div className="py-2 cursor-pointer" onClick={goBack}>
                         <ChevronLeftCircle
                             className="w-24 h-10"
-                            style={{ color: "#181FC5" }}
+                            style={{ color: "#31cbe4" }}
                         />
                     </div>
                     <h2
@@ -172,12 +172,12 @@ function Payment() {
                         <div className="flex flex-col  justify-center items-center mt-2">
                            
                             <button
-                                className="bg-[#181FC5] text-white p-2 px-12 rounded-md"
+                                className="bg-[#31cbe4] text-white p-2 px-12 rounded-md"
                                 style={{}}
                             >
                                 Make Payment
                             </button>
-                            <button className="" style={{ color: "#181FC5" }}>
+                            <button className="" style={{ color: "#31cbe4" }}>
                                 Cancel
                             </button>
                         </div>

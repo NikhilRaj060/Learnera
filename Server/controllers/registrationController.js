@@ -389,70 +389,8 @@ const updatePasswordAfterValidate = async (req, res) => {
   }
 };
 
-// function setCookie(res, cookieData) {
-//   let token = jwt.sign(JSON.stringify(cookieData), process.env.JWT_SECRET, {
-//     expiresIn: "7d",
-//   });
-//   return res
-//     .header("Set-Cookie", `Authorization=${token};HttpOnly;SameSite=Lax`)
-//     .json(cookieData);
-// }
-
-// function validateRegisterData(data) {
-//   const schema = Joi.object().keys({
-//     username: Joi.string().alphanum().min(3).max(50).required(),
-//     password: Joi.string()
-//       .regex(/^[a-zA-Z0-9]{8,}$/)
-//       .required(),
-//   });
-
-//   return Joi.validate(data, schema);
-// }
-
-// function validateLoginData(data) {
-//   const schema = Joi.object().keys({
-//     username: Joi.string().required(),
-//     password: Joi.string().required(),
-//   });
-//   data.password = CryptoJS.AES.decrypt(
-//     data.password,
-//     process.env.CRYPTO_KEY
-//   ).toString(CryptoJS.enc.Utf8);
-//   return Joi.validate(data, schema);
-// }
-// @route POST api/auth/login
-// @desc Login user and return JWT token
-// @access Public
-// router.post("/login", async (req, res) => {
-//   const { error } = validateLoginData(req.body);
-//   if (error) return res.status(400).send(error.details[0].message);
-
-//   const user = await findUserByEmailOrUsername(req.body.username, "email");
-//   if (!user) return res.status(400).send("Invalid email or username");
-
-//   const validPassord = (await user.isValidPassword(req.body.password)).valid;
-//   if (!validPassord) return res.status(400).send("Wrong password");
-
-//   //Jwt sign the user and send back the token
-//   const token = user.genToken();
-//   res.header("token", token).send(_.omit(user, "password"));
-// });
-
-// @route GET api/auth/current
-// @desc Return current logged in user
-// @access Private
-// router.get(
-//   "/current",
-//   passport.authenticate("jwt", { session: false }),
-//   (req, res) => {
-//     res.send(req.user);
-//   }
-// );
-
 const logoutUser = (req, res) => {
   try {
-    // Clear the authentication token (assuming you're using JWT)
-
     res.clearCookie("token");
     return res.json({ success: true, message: "Logout successful" });
   } catch (error) {

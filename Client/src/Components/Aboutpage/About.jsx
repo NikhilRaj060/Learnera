@@ -165,7 +165,7 @@ function About() {
             />
           </div>
           <div className="w-full md:w-1/2 animate__animated animate__backInRight space-y-4 flex flex-col  justify-center">
-            <h1 className="text-2xl md:text-xl font-bold mb-4 text-left" style={{ color: "#181FC5" }}>
+            <h1 className="text-2xl md:text-xl font-bold mb-4 text-left" style={{ color: "#31cbe4" }}>
               WHO WE ARE
             </h1>
             <h2 className="text-4xl md:text-3xl font-semibold mb-2 text-left">
@@ -228,7 +228,7 @@ function About() {
           <div className="text-center">
             <h4
               className="text-2xl font-bold"
-              style={{ color: "#181FC5", paddingTop: "50px" }}
+              style={{ color: "#31cbe4", paddingTop: "50px" }}
             >
               WHO WE ARE
             </h4>
@@ -241,7 +241,7 @@ function About() {
             <div className="text-center items-center space-y-4 justify-center mb-8 sm:mb-0">
               <img
                 src="/Image/Book.png"
-                className="w-12 h-12 p-2 bg-[#181FC5] rounded-full mx-auto"
+                className="w-12 h-12 p-2 bg-[#31cbe4] rounded-full mx-auto"
                 alt="Choose Any Courses"
               />
               <h5>Choose Any Courses</h5>
@@ -254,7 +254,7 @@ function About() {
             <div className="text-center items-center space-y-4 justify-center mb-8 sm:mb-0">
               <img
                 src="/Image/Book4.png"
-                className="w-12 h-12 p-2 bg-[#181FC5] rounded-full mx-auto"
+                className="w-12 h-12 p-2 bg-[#31cbe4] rounded-full mx-auto"
                 alt="Purchase Your Course"
               />
               <h5>Purchase Your Course</h5>
@@ -267,7 +267,7 @@ function About() {
             <div className="text-center items-center space-y-4 justify-center">
               <img
                 src="/Image/Book2.png"
-                className="w-12 h-12 p-2 bg-[#181FC5] rounded-full mx-auto"
+                className="w-12 h-12 p-2 bg-[#31cbe4] rounded-full mx-auto"
                 alt="Great! Start Learn"
               />
               <h5>Great! Start Learn</h5>
@@ -330,7 +330,7 @@ function About() {
           style={{ marginBlock: "150px" }}
         >
           <div className="md:w-1/2 pr-4 animate__animated animate__backInRight">
-            <h2 className="font-bold text-2xl" style={{ color: "#181FC5" }}>
+            <h2 className="font-bold text-2xl" style={{ color: "#31cbe4" }}>
               OUR MISSION
             </h2>
             <p className="text-2xl">
@@ -344,7 +344,7 @@ function About() {
           </div>
 
           <div className="md:w-1/2 mt-6 md:mt-0 animate__animated animate__backInLeft">
-            <h2 className="font-bold text-2xl" style={{ color: "#181FC5" }}>
+            <h2 className="font-bold text-2xl" style={{ color: "#31cbe4" }}>
               OUR VISION
             </h2>
             <p className="text-2xl">
@@ -359,7 +359,7 @@ function About() {
         </div>
 
         <div
-          className="mt-10 border-black rounded-xl bg-[#181FC5] relative animate__animated animate__fadeIn"
+          className="mt-10 border-black rounded-xl bg-[#31cbe4] relative animate__animated animate__fadeIn"
           style={{ marginBlock: "-120px" }}
         >
           <div className="py-24 text-center flex flex-col justify-center items-center">
@@ -392,7 +392,7 @@ function About() {
         <div className="">
           <h2
             className="text-center text-3xl  font-bold "
-            style={{ color: "#181FC5", paddingTop: "12rem" }}
+            style={{ color: "#31cbe4", paddingTop: "12rem" }}
           >
             Review from Learners
           </h2>

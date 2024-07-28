@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Headers/Navbar";
 import BaseLayout from "../../Layout/BaseLayout";
 import { Helmet } from "react-helmet";
 function Blog() {

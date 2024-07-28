@@ -59,10 +59,11 @@ function Herosection2() {
           <p className="mt-4 sm:mt-8 text-lg text-[#4F4E4E] text-left w-full sm:w-[60%]">
             Learnera provides industry-leading courses on-demand & online.
           </p>
+
           <div className="item-center flex justify-center sm:mt-8 w-full sm:w-[60%]">
-            <div className="bg-[#2F35CB] rounded-3xl py-2">
-              <button className="text-white text-base px-8">Get Started</button>
-            </div>
+              <button className="inline-flex h-12 text-white animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(130deg,#11B4CF,45%,#c5c7cf,55%,#11B4CF)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                Get Started
+              </button>
           </div>
         </div>
         <div className="animate__animated animate__backInLeft flex items-center max-w-full m-0 z-10">

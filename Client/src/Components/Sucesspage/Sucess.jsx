@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Avatar } from "@material-tailwind/react";
-import { StarIcon } from "@heroicons/react/solid";
+import { StarIcon } from "@heroicons/react/24/solid";
 import { Button } from "@material-tailwind/react";
 import { RiDoubleQuotesL } from "react-icons/ri";
 
@@ -115,7 +115,7 @@ function Success() {
               className="rounded-[57px] drop-shadow-[18px_12px_4px_gray] w-full"
               alt="reviewer_img"
             />
-            <div className="bg-[#181FC5] rounded-full w-[90px] h-[90px] absolute -right-6 -top-6 z-10"></div>
+            <div className="bg-[#31cbe4] rounded-full w-[90px] h-[90px] absolute -right-6 -top-6 z-10"></div>
             <p className="text-white absolute text-5xl right-0 -top-1 z-10">
               <RiDoubleQuotesL />
             </p>
@@ -141,7 +141,7 @@ function Success() {
               {successStories.map((_, index) => (
                 <div
                   key={index}
-                  className={`dot w-3 h-3 md:w-4 md:h-4 xl:w-4 xl:h-4 rounded-full ${index === currentSlide ? "bg-[#181FC5]" : "bg-gray-300"
+                  className={`dot w-3 h-3 md:w-4 md:h-4 xl:w-4 xl:h-4 rounded-full ${index === currentSlide ? "bg-[#31cbe4]" : "bg-gray-300"
                     }`}
                   onClick={() => setCurrentSlide(index)}
                 />

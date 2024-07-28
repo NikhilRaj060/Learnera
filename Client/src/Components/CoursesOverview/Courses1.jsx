@@ -127,7 +127,7 @@ function Courses1() {
       </Helmet>
       <h1
         className="text-3xl mt-10 lg:ml-24 sm:ml-4 text-center lg:text-left font-bold"
-        style={{ color: "#181FC5" }}
+        style={{ color: "#31cbe4" }}
       >
         Explore Course{" "}
       </h1>
@@ -173,7 +173,7 @@ function Courses1() {
       <div>
         <h1
           className="text-3xl mt-10 lg:ml-24 sm:ml-4 text-center lg:text-left font-bold"
-          style={{ color: "#181FC5" }}
+          style={{ color: "#31cbe4" }}
         >
           Popular Courses
         </h1>
@@ -189,7 +189,7 @@ function Courses1() {
           : data.popularCoursesData.map((popularCourse, index) => (
               <div
                 key={index}
-                className="bg-[#181FC5] items-center justify-between mx-4 md:mx-24 mt-8 rounded-2xl py-4 flex md:flex-row px-4 md:px-8 cursor-pointer"
+                className="bg-[#31cbe4] items-center justify-between mx-4 md:mx-24 mt-8 rounded-2xl py-4 flex md:flex-row px-4 md:px-8 cursor-pointer"
                 onClick={() => handleClick(popularCourse)}
               >
                 <div className="mb-2 md:mb-0 md:mr-4">
@@ -210,7 +210,7 @@ function Courses1() {
       <div>
         <h1
           className="text-3xl mt-10 lg:ml-24 sm:ml-4 text-center lg:text-left font-bold"
-          style={{ color: "#181FC5" }}
+          style={{ color: "#31cbe4" }}
         >
           All Courses{" "}
         </h1>
@@ -228,7 +228,7 @@ function Courses1() {
             : data.allCoursesData.map((course, index) => (
                 <div
                   key={index}
-                  className="bg-[#181FC5] p-4 rounded-lg shadow-lg flex flex-col justify-between"
+                  className="bg-[#31cbe4] p-4 rounded-lg shadow-lg flex flex-col justify-between"
                 >
                   <div>
                     <img
@@ -248,7 +248,7 @@ function Courses1() {
                   </div>
                   <div className="mt-4">
                     <button
-                      className="text-white bg-blue-500 px-4 py-2 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue"
+                      className="text-white bg-blue-500 px-4 py-2 rounded-full hover:bg-[#48e5ff] focus:outline-none focus:shadow-outline-blue"
                       onClick={() => handleOpen(course)}
                     >
                       {course.buttonText}
@@ -261,7 +261,7 @@ function Courses1() {
         {/* Dialog */}
         {selectedCourse && (
           <Dialog
-            className="bg-[#181FC5]"
+            className="bg-[#31cbe4]"
             open={openDialog}
             handler={handleClose}
           >
@@ -316,7 +316,7 @@ function Courses1() {
               </div>
               <button
                 onClick={() => handleClick(selectedCourse)}
-                className="text-white bg-blue-500 px-8 py-2 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue mr-1"
+                className="text-white bg-blue-500 px-8 py-2 rounded-full hover:bg-[#48e5ff] focus:outline-none focus:shadow-outline-blue mr-1"
               >
                 <span>Explore</span>
               </button>

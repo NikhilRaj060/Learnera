@@ -152,7 +152,7 @@ function Contact() {
             {Object.keys(data).map((index) => (
               <div
                 key={index}
-                className="border-2 w-52 my-4 h-fit rounded-lg shadow-xl transform hover:scale-105 hover:-translate-y-5 hover:bg-[#859BFF] duration-500 ease-in-out md:hover:scale-100 md:hover:-translate-y-5 xl:hover:-translate-y-5 md:hover:duration-1000 xl:hover:duration-1000 transition-all"
+                className="border-2 w-52 my-4 h-fit rounded-lg shadow-xl transform hover:scale-105 hover:-translate-y-5 hover:bg-[#48e5ff] duration-500 ease-in-out md:hover:scale-100 md:hover:-translate-y-5 xl:hover:-translate-y-5 md:hover:duration-1000 xl:hover:duration-1000 transition-all"
               >
                 <div className="flex py-11 h-full items-center px-3 justify-between flex-col">
                   <div

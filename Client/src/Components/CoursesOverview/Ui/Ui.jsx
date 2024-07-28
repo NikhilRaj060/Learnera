@@ -4,13 +4,13 @@ import CourseCard from "../../Coursespage/CourseCard";
 import VideoModal from "../../Coursespage/VideoModal";
 import BaseLayout from "../../../Layout/BaseLayout";
 import CourseDetails from "../../Coursespage/CourseDetails";
-import { StarIcon } from "@heroicons/react/solid";
+import { StarIcon } from "@heroicons/react/24/solid";
 import {
   Accordion,
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 import { Rating } from "@material-tailwind/react";
 import { NavLink, useLocation } from "react-router-dom";
 import axios from "axios";
@@ -222,7 +222,7 @@ const badges = [
 
         <h1
           className="text-3xl mt-10 lg:ml-24 sm:ml-4 text-center lg:text-left font-bold"
-          style={{ color: "#181FC5" }}
+          style={{ color: "#31cbe4" }}
         >
           {course?.courseTitle}
         </h1>
@@ -247,7 +247,7 @@ const badges = [
         </div>
 
         <div className="flex items-center mt-5 gap-24  justify-center flex-wrap">
-          <div className="bg-[#181FC5] flex items-center px-4  p-1 gap-2 mb-2 sm:mb-0 sm:mr-2 w-full sm:w-auto">
+          <div className="bg-[#31cbe4] flex items-center px-4  p-1 gap-2 mb-2 sm:mb-0 sm:mr-2 w-full sm:w-auto">
             <img
               src="/Image/Badge.png"
               alt="Top Choice Badge"
@@ -256,7 +256,7 @@ const badges = [
             <h4 className="text-white font-semibold text-sm">{course?.videoNames?.length} Lectures</h4>
           </div>
 
-          <div className="bg-[#181FC5] flex items-center px-4 p-1 gap-2 mb-2 sm:mb-0 sm:mr-2 w-full sm:w-auto">
+          <div className="bg-[#31cbe4] flex items-center px-4 p-1 gap-2 mb-2 sm:mb-0 sm:mr-2 w-full sm:w-auto">
             <img
               src="/Image/Fire.png"
               alt="Most Popular Badge"
@@ -265,7 +265,7 @@ const badges = [
             <h4 className="text-white font-semibold text-sm">3.5 hours</h4>
           </div>
 
-          <div className="bg-[#181FC5] flex items-center px-4 p-1 gap-2 mb-2 sm:mb-0 sm:mr-2 w-full sm:w-auto">
+          <div className="bg-[#31cbe4] flex items-center px-4 p-1 gap-2 mb-2 sm:mb-0 sm:mr-2 w-full sm:w-auto">
             <img
               src="/Image/Fire.png"
               alt="Most Popular Badge"
@@ -274,7 +274,7 @@ const badges = [
             <h4 className="text-white font-semibold text-sm">English</h4>
           </div>
 
-          <div className="bg-[#181FC5] flex items-center px-4 p-1 gap-2 w-full sm:w-auto">
+          <div className="bg-[#31cbe4] flex items-center px-4 p-1 gap-2 w-full sm:w-auto">
             <img
               src="/Image/Fire.png"
               alt="Best ROI Badge"
@@ -347,7 +347,7 @@ const badges = [
         <div className="mt-12">
           <h1
             className="text-3xl  mt-10  text-center font-bold "
-            style={{ color: "#181FC5" }}
+            style={{ color: "#31cbe4" }}
           >
             {course?.courseTitle} Training Syllabus
           </h1>
@@ -359,7 +359,7 @@ const badges = [
               >
                 <AccordionHeader
                   onClick={() => handleOpen(index)}
-                  style={{ color: "#181FC5" }}
+                  style={{ color: "#31cbe4" }}
                 >
                   {c.question}
                 </AccordionHeader>
@@ -371,7 +371,7 @@ const badges = [
         <div className="mt-12">
           <h1
             className="text-center font-bold text-3xl"
-            style={{ color: "#181FC5" }}
+            style={{ color: "#31cbe4" }}
           >
             Review from Learners
           </h1>
@@ -444,7 +444,7 @@ const badges = [
         <div className="mt-12 pb-16">
           <h4
             className="text-3xl mt-10 lg:ml-10 font-bold text-center"
-            style={{ color: "#181FC5" }}
+            style={{ color: "#31cbe4" }}
           >
             Our Top Picks for You
           </h4>

@@ -9,7 +9,7 @@
 //         <section className="flex flex-col items-center justify-center mb-12">
 //   <div className="flex items-center space-x-3">
 //     <div className="bg-white rounded-full p-2">
-//       <img src="/Image/logo.svg" className="w-10 text-[#3d71f5]" alt="Logo" />
+//       <img src="/Image/logo.png" className="w-10 text-[#3d71f5]" alt="Logo" />
 //     </div>
 //     <h1 className="text-3xl font-bold">Learnera</h1>
 //   </div>
@@ -152,7 +152,7 @@ function Member() {
             <div className="flex items-center space-x-3">
               <div className="bg-white rounded-full p-2">
                 <img
-                  src="/Image/logo.svg"
+                  src="/Image/logo.png"
                   className="w-10 text-[#3d71f5]"
                   alt="Logo"
                 />
@@ -167,27 +167,27 @@ function Member() {
               We're thrilled to announce our latest course package offer designed to supercharge your learning journey! Dive into a world of knowledge with our comprehensive package, crafted to empower you with the skills and insights you need to succeed. Stay tuned for more details on how you can seize this incredible opportunity!
               </p>
             </div>
-            <Button className="mt-6 bg-[#181FC5] hover:bg-[#181FC5]">
+            <Button className="mt-6 bg-[#31cbe4] hover:bg-[#48e5ff]">
               Get Access
             </Button>
           </section>
 
           <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-[#181FC5] p-6 rounded-lg text-center">
+            <div className="bg-[#31cbe4] p-6 rounded-lg text-center">
               <h3 className="text-6xl font-bold">974+</h3>
               <p className="text-xl font-semibold mt-2">Members</p>
               <p className="text-sm mt-2">
                 Join the community with over 21000+ Students all over the globe.
               </p>
             </div>
-            <div className="bg-[#181FC5] p-6 rounded-lg text-center">
+            <div className="bg-[#31cbe4] p-6 rounded-lg text-center">
               <h3 className="text-6xl font-bold">73+</h3>
               <p className="text-xl font-semibold mt-2">Hours</p>
               <p className="text-sm mt-2">
                 Get access to the library of 150+ hours of content.
               </p>
             </div>
-            <div className="bg-[#181FC5] p-6 rounded-lg text-center">
+            <div className="bg-[#31cbe4] p-6 rounded-lg text-center">
               <h3 className="text-6xl font-bold">325+</h3>
               <p className="text-xl font-semibold mt-2">Lectures</p>
               <p className="text-sm mt-2">
@@ -196,12 +196,12 @@ function Member() {
             </div>
           </section>
         </main>
-        <div className="absolute top-0 left-0 w-32 h-32 bg-[#181FC5] rounded-full -translate-x-16 translate-y-16" />
-        {/* <div className="absolute top-32 right-20 w-24 h-24 bg-[#181FC5] rounded-full translate-x-16 -translate-y-16" /> */}
-        <div className="absolute bottom-28 left-0 w-32 h-32 bg-[#181FC5] rounded-full -translate-x-16 -translate-y-16" />
+        <div className="absolute top-0 left-0 w-32 h-32 bg-[#31cbe4] rounded-full -translate-x-16 translate-y-16" />
+        {/* <div className="absolute top-32 right-20 w-24 h-24 bg-[#31cbe4] rounded-full translate-x-16 -translate-y-16" /> */}
+        <div className="absolute bottom-28 left-0 w-32 h-32 bg-[#31cbe4] rounded-full -translate-x-16 -translate-y-16" />
         <div className=" min-h-screen flex items-center justify-center p-4">
           <div className="flex flex-col md:flex-row  text-white rounded-lg  lg:space-x-24 justify-center overflow-hidden  w-full">
-            <div className="bg-[#181FC5] p-8 rounded-2xl flex flex-col items-center justify-between">
+            <div className="bg-[#31cbe4] p-8 rounded-2xl flex flex-col items-center justify-between">
               <h2 className="text-4xl font-bold mb-4">Join</h2>
               <p className="text-6xl font-bold mb-4">₹ 989</p>
               <div className="border-t border-white w-full py-4">
@@ -212,16 +212,16 @@ function Member() {
                   <li>Get Free Access To Learnera Academics</li>
                 </ul>
               </div>
-              <Button className="bg-[#3b49df] text-white rounded-3xl mt-4">
+              <Button className="bg-[#2cffb3] text-white rounded-3xl mt-4">
                 Save 90%
               </Button>
-              <Button className="bg-[#3b49df] text-white mt-4">
+              <Button className="bg-[#2cffb3] text-white mt-4">
                 Get Access
               </Button>
             </div>
             <div className=" mt-8 space-y-10">
               <div className="flex items-center space-x-4">
-                <img  src="/Image/Line.png" className="text-[#3b49df] h-12 bg-black w-12 rounded-full p-2"
+                <img  src="/Image/Line.png" className="text-[#2cffb3] h-12 bg-black w-12 rounded-full p-2"
                 alt="line.png"
                  />
                 <div>
@@ -233,7 +233,7 @@ function Member() {
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-              <img  src="/Image/User1.png" className="text-[#3b49df] h-12 bg-black w-12 rounded-full p-2"
+              <img  src="/Image/User1.png" className="text-[#2cffb3] h-12 bg-black w-12 rounded-full p-2"
               alt="user1"
               />
                 <div>
@@ -245,7 +245,7 @@ function Member() {
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-              <img  src="/Image/User2.png" className="text-[#3b49df] h-12 bg-black w-12 rounded-full p-2" 
+              <img  src="/Image/User2.png" className="text-[#2cffb3] h-12 bg-black w-12 rounded-full p-2" 
               alt="user2"
               />
                 <div>
@@ -257,7 +257,7 @@ function Member() {
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-              <img  src="/Image/User3.png" className="text-[#3b49df] h-12 bg-black w-12 rounded-full p-2" 
+              <img  src="/Image/User3.png" className="text-[#2cffb3] h-12 bg-black w-12 rounded-full p-2" 
                alt="user3"
               />
                 <div>
@@ -334,7 +334,7 @@ function Member() {
           </div>
         </div>
 
-        <div className="bg-[#181FC5] mt-8  py-4 ">
+        <div className="bg-[#31cbe4] mt-8  py-4 ">
           <div className="text-center">
             <h2 className="text-3xl text-white  font-bold">Got a question?</h2>
             <p className="text-white text-2xl">
