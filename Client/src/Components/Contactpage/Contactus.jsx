@@ -41,7 +41,7 @@ function Contact() {
       setErrors(validationErrors);
     } else {
       try {
-        await axios.post("http://3.110.210.79:3001/api/contact", formData);
+        await axios.post(`${process.env.REACT_APP_API_URL}/api/contact`, formData);
         console.log("Form submitted:", formData);
         setSubmitted(true);
       } catch (error) {
@@ -98,13 +98,13 @@ function Contact() {
   const data = {
     0: {
       title: "Our Website",
-      text: "www.edlernity.com",
+      text: "www.learnera.com",
       bgColor: "rgba(82, 95, 225, 0.1)",
       icon: <BsGlobe color="blue" className="absolute top-2 w-10 h-6" />,
     },
     1: {
       title: "Call Us On",
-      text: "+91 8073306479",
+      text: "+91 6203651872",
       bgColor: "rgba(251, 124, 86, 0.1)",
       icon: (
         <RiHeadphoneLine color="orange" className="absolute top-2 w-10 h-6" />
@@ -112,7 +112,7 @@ function Contact() {
     },
     2: {
       title: "Email Us",
-      text: "info@edlernity.com",
+      text: "info@learnera.com",
       bgColor: "rgba(255, 164, 27, 0.1)",
       icon: (
         <IoMailOpenOutline color="green" className="absolute top-2 w-10 h-6" />
@@ -120,7 +120,7 @@ function Contact() {
     },
     3: {
       title: "Our Location",
-      text: "20, Sai Archids, Chikkabettahalli Vidyaranyapura Bangalore,India, 560097.",
+      text: "Welldone Techpark, Sector 48, Gurugram, Haryana 122018",
       bgColor: "rgba(82, 95, 225, 0.1)",
       icon: (
         <IoLocationOutline color="purple" className="absolute top-2 w-10 h-6" />
@@ -133,7 +133,7 @@ function Contact() {
       <BaseLayout>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>EdLernity | Contact</title>
+          <title>Learnera | Contact</title>
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
 
@@ -279,9 +279,10 @@ function Contact() {
               className="mx-8 md:mx-0 w-screen rounded-xl md:px-16 xl:px-64 mb-16 md:mb-32 h-full "
             />
           ) : (
+            
             <iframe
               title="Google Maps"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15544.484040192685!2d77.53183771738283!3d13.091516500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae23759f6e8a79%3A0xbeb8ddec4f82f2f0!2sSai%20Orchard%20Layout!5e0!3m2!1sen!2sin!4v1707893715831!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d333.6519184000633!2d77.03835159662859!3d28.41853383642824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d23ac952fe5ed%3A0x2d354a104d995c73!2sWelldone%20Techpark!5e0!3m2!1sen!2sin!4v1749835819657!5m2!1sen!2sin"
               width="100%"
               height="300"
               frameBorder="0"

@@ -111,7 +111,7 @@ function Signup() {
     } else {
       setError('');
       try {
-        let res = await axios.post("http://3.110.210.79:3001/auth/register", data);
+        let res = await axios.post(`${process.env.REACT_APP_API_URL}/auth/register`, data);
         setResponseData(res.data);
         if (res?.data?.success) {
           setIsResgisterSucess(true);

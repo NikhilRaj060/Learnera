@@ -19,11 +19,11 @@ const createUserCourseController = async (req, res) => {
 
 const getUserCourseByIdController = async (req, res) => {
     try {
-        // const decodeToken = jwt.verify(token, process.env.JWT_SECRET);
+        const decodeToken = jwt.verify(token, process.env.JWT_SECRET);
 
-        // let userId = decodeToken.userId;
+        let userId = decodeToken.userId;
 
-        let userId = '65e371937c70ff6e3cab6c3c';
+        // let userId = '65e371937c70ff6e3cab6c3c';
 
         const userCourse = await getUserCourseById(userId);
 
@@ -32,7 +32,7 @@ const getUserCourseByIdController = async (req, res) => {
         let courseIds =  userCourse.userCourseIds;
         
         if (!userCourse){
-            return res.status(404).json({success:false, message:"No User Course found"});
+            return res.status(404).json({success:false, message:"No course found against this user"});
         } else {
             if (isAllCourse) {
                 const courses = await getAllCourseDetails();

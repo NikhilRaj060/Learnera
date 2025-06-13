@@ -60,7 +60,7 @@ function Login() {;
   const handleSignup = async () => {
       handlePassord(data.password);
       try {
-        let res = await axios.post("http://3.110.210.79:3001/auth/login", data);
+        let res = await axios.post(`${process.env.REACT_APP_API_URL}/auth/login`, data);
         if (res?.data?.success) {
           localStorage.setItem("jwt_token", res?.data?.token);
           alert("login sucess")

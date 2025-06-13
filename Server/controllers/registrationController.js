@@ -88,7 +88,7 @@ const registerUser = async (req, res) => {
 
     await newUser.save();
 
-    return res.json({ success: true, message: "Thank you for registering with edlernity. ", redirectTo: "/" ,text : ""});
+    return res.json({ success: true, message: "Thank you for registering with learnera. ", redirectTo: "/" ,text : ""});
   } catch (error) {
     console.error("Error:", error);
     return res
@@ -131,7 +131,7 @@ const loginUser = async (req, res) => {
     const token = jwt.sign(
       { userId: user._id, email: user.email },
       process.env.JWT_SECRET,
-      { expiresIn: "50m" }
+      { expiresIn: process.env.JWT_EXPIRATION }
     );
 
     // Send the token in the response
